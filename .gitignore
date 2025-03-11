@@ -1,0 +1,11 @@
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore Downloads directory
+Downloads/
+
+# Ignore log files
+log.txt
+
+#Ignore config files
+config.py

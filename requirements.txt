@@ -1,0 +1,9 @@
+pyrofork
+motor
+aiofiles==24.1.0
+aiohttp==3.11.7
+tgcrypto==1.2.5
+datetime==5.5
+python-dotenv==1.0.1
+bcrypt==4.1.2
+pymongo==4.6.2
