@@ -1,10 +1,14 @@
 import asyncio
 import importlib
 from pyrogram import idle
-from diary.misc import sudo
-from diary import LOGGER, DiaryBot,HELPABLE
-from diary.modules import ALL_MODULES
+from Sellbot.misc import sudo
+from Sellbot import LOGGER, SellRobot, HELPABLE
+from Sellbot.modules import ALL_MODULES
 from pyrogram.types import BotCommand
+
+from keep_alive import keep_alive
+keep_alive()
+
 async def diary_start():
     try:
 
